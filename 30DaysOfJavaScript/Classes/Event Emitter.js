@@ -15,7 +15,7 @@ class EventEmitter {
       unsubscribe: () => {
         const index = listeners.indexOf(cb);
         if (index !== -1) {
-          listeners.splice(index, 1);
+          listeners.splice(index, 1);leet
         }
       },
     };
