@@ -5,7 +5,7 @@ const numDecodings = (s: string): number => {
     }
 
     if (s[index] === "0") {
-      return 0;
+      return  0;
     }
 
     let ways = helper(index + 1);
